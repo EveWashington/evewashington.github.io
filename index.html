@@ -4,9 +4,29 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="style.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+<!--         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/> -->
+        <link rel="stylesheet" href="animations.css">
+        
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        
+        
         <title> Eve Washington </title>
     </head>
+    
+    <script>
+	$(window).scroll(function() {
+		$('#animate').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("pullDown");
+			}
+		});
+	});
+    </script>
+    
+    
     <body>
 
 
@@ -27,8 +47,8 @@
 
             <div class="col-3">
                 <h2><span class="yellow">Glad your here! Let me introduce myself</span></h2>
-                <img class="animate__animated animate__fadeInDown" src="\assets\photo.JPEG" width="100%">
-                
+<!--                 <img class="animate__animated animate__fadeInDown" src="\assets\photo.JPEG" width="100%"> -->
+                <img class="pullDown animate" src="\assets\photo.JPEG" width="100%">
             </div>
 
             <div class="col-6 main">
@@ -74,7 +94,7 @@
                         <p>I analyzed a database with over 60,000 job postings from LionShare/Handshake, then working with a visuals team produced and reported on trends in job market and industry changes due to COVID-19 for an <a href="https://www.columbiaspectator.com/eye-lead/2020/05/15/uncertainty-looms-as-student-jobs-are-disappearing-during-the-great-lockdown/">enterprise story</a>.&nbsp;</p>
                     </div>
                     <div class="col-6">
-                        <img src="\assets\lockdown.gif" class="animate__animated animate__fadeInDown" width="90%">
+                        <img src="\assets\lockdown.gif" class="pullDown animate" width="90%">
                     </div>
                 </div>
                 <br>
@@ -85,7 +105,7 @@
                         <p>After Midland&rsquo;s dams failed in May 2020, as a Planet Detroit <a href="https://planetdetroit.org/2020/06/how-safe-are-metro-detroits-dams-we-broke-down-the-data/">investigation</a> I analyzed data from the national dam registry to breakdown the state of Detroit&rsquo;s dams.&nbsp;</p>  
                     </div>
                     <div class="col-6">
-                        <img src="\assets\dams.png" class="animate__animated animate__fadeInDown" width="90%">
+                        <img src="\assets\dams.png" class="pullDown animate" width="90%">
                     </div>
                 </div>
                 <br>
@@ -96,7 +116,7 @@
                         <p>I built the <a href="https://github.com/EveWashington/Quest">back-end</a> for a web-based, real-time feedback tool for classrooms with Node.js as part of a team of four people<br /><br /></p>
                     </div>
                     <div class="col-6">
-                        <img src="\assets\quest.gif" class="animate__animated animate__fadeInDown" width="90%">
+                        <img src="\assets\quest.gif" class="pullDown animate" width="90%">
                     </div>
                 </div>
                 <br>
