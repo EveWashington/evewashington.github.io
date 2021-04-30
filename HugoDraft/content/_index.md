@@ -1,7 +1,8 @@
 ---
 heading: "Hi, I'm Eve"
-handle: 
-subheading: "Columbia computer science student, fascinated by journalism and media, eagar to expand accessblity with informaion." #do this better 
+handle: "Welcome to my portfolio site, check out some of the projects I've made in recent years and i fyou have any questions don't hesitate to get in 
+
+subheading: "computer science student, fascinated by journalism and media, eager to expand accessability with informaion." #do this better 
 
 bio: "I am a rising Senior at Columbia Universtiy studying computer science, originally from Metro Detroit.
 
@@ -9,7 +10,7 @@ I have worked as a magazine editor, news reporter, data journalist, and a workfo
 
 As I accomplish this goal, I am honored to be supported as an Emma Bowen Foundation fellow, Management Leaders of Tomorrow software engineering fellow, and a Ron Brown captain.
 
-I hope you enjoy learning a little more about me and the work I do, while reading this site. If you have any questions or inquiries reach out. "
+I hope you enjoy learning a little more about me and the work I do, while reading this site. If you have any questions or inquiries reach out."
 
 
 ---
