@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css">
+<!--         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/> -->
+        <link rel="stylesheet" href="animations.css">
+        
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        
+        
+        <title> Eve Washington </title>
+    </head>
+    
+    <script>
+	$(window).scroll(function() {
+		$('#animate').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("pullDown");
+			}
+		});
+	});
+    </script>
+    
+    
+    <body>
+
+
+
+        <div class="header fullscreen" style="display:block;">
+            <h3  id="greeting" style="padding-top:3%;"> Hello world <img src="assets/wave.png" width="5%"></h3>
+            <h1  id="byline">I am <span class="yellow">Eve Washington</span>, <span class="blue">computer science</span> student fascinated by <span class="purple">journalism and media</span> eager to combine tech and storytelling in a way that makes a impact. </h1>
+            <br>
+            <p  id="contact">Wanna talk? 💬 <a href = "mailto:eve.s.l.washington@gmail.com">Email me</a></p>
+
+            <!-- <p style="text-align:right;"><br> <br>...or scroll to learn some more about me!</p> -->
+        </div>
+        
+
+        <div class="work row cat">
+            <div class="col-2 margin">
+            </div>
+
+            <div class="col-3">
+                <h2><span class="yellow">Glad your here! Let me introduce myself</span></h2>
+<!--                 <img class="animate__animated animate__fadeInDown" src="assets\photo.JPEG" width="100%"> -->
+                 <!-- <img class="animate" src="assets\photo.JPEG" width="80%">  -->
+            </div>
+
+            <div class="col-6 main">
+                <p> I am a rising Senior at Columbia University studying computer science. I grew up in Metro Detroit and am currently living in NYC. 
+                    <br><br>
+                    <!-- On-campus I can probably be found chasing writers and sources as managing editor of The Eye, a campus feature magazine, reaching out to peers as a residential advisor,
+                    or volunteering with the National Society of Black Engineers as outreach chair.
+                    <br><br> -->
+                    I have more than a few college experiences under my belt, from managing editor, data analyst, residential advisor and more, and I am so happy to share some of this work on this on this portfolio.   
+                    <!-- I have been published in <a href="https://www.bridgemi.com/about/eve-washington">Bridge Michigan</a>, 
+                    <a href="https://planetdetroit.org/author/eve-washington/">Planet Detroit</a>, 
+                    and the <a href="https://www.columbiaspectator.com/contributors/Eve-Washington/">Columbia Daily Spectator</a>. 
+                    I am always looking to gather new experiences and skills that I can use to innovate and tell stories.
+                    <br><br>
+                    As I accomplish this goal, I am honored to be supported as an Emma Bowen Foundation fellow, Management Leaders of Tomorrow software engineering fellow, 
+                    and a Ron Brown captain.  -->
+                    <br><br>
+                    Please note that I am currently in the process of updating and upgrading this site. For the most accurate and up-to-date info and any inquires, shoot me an email! </p>
+                
+            </div>
+            <div class="col-2 margin">
+                
+            </div>
+        </div>
+
+
+        <div class="bigProjects-1 row cat">
+            <div class="col-2 margin">
+
+            </div>
+
+            <div class="col-3">
+                <h2><span class="blue">Here are some of the best things I've made</span></h2>
+                
+            </div>
+
+            <div class="col-6 main">
+                
+                <br>
+                <div class="row">
+                    <div class="col-6">
+                        <h4>COVID-19 Student Job Loss Analysis</h4>
+                        <p>I analyzed a database with over 60,000 job postings from LionShare/Handshake, then working with a visuals team produced and reported on trends in job market and industry changes due to COVID-19 for an <a href="https://www.columbiaspectator.com/eye-lead/2020/05/15/uncertainty-looms-as-student-jobs-are-disappearing-during-the-great-lockdown/">enterprise story</a>.&nbsp;</p>
+                    </div>
+                    <div class="col-6">
+                        <img src="assets\lockdown.gif" class="animate" width="90%">
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-6">
+                        <h4>What's up with Metro Detroit&rsquo;s dams? Spatial Mapping with R</h4>
+                        <p>After Midland&rsquo;s dams failed in May 2020, as a Planet Detroit <a href="https://planetdetroit.org/2020/06/how-safe-are-metro-detroits-dams-we-broke-down-the-data/">investigation</a> I analyzed data from the national dam registry to breakdown the state of Detroit&rsquo;s dams.&nbsp;</p>  
+                    </div>
+                    <div class="col-6">
+                        <img src="assets\dams.png" class="animate" width="90%">
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-6">
+                        <h4>Quest, 1st Place Winner, DivHacks 2019</h4>
+                        <p>I built the <a href="https://github.com/EveWashington/Quest">back-end</a> for a web-based, real-time feedback tool for classrooms with Node.js as part of a team of four people<br /><br /></p>
+                    </div>
+                    <div class="col-6">
+                        <img src="assets\quest.gif" class="animate" width="90%">
+                    </div>
+                </div>
+                <br>
+                <br>
+                <h4>&lsquo;100 Years of The Core&rsquo; with Python Natural Language Processing</h4>
+                <p>An archival project, where I analyzed Columbia Spectator News Articles that mention Columbia&rsquo;s Core Curriculum, with Python, Pandas, Matplotlib, Textblob, and NLTK. Part of an investigation for The Eye</p>
+                <br>
+                <br>
+                <h4>Civvi, 3rd Place Winner, HackMIT 2019</h4>
+                <p>I was a critical part of a four-person team that <a href="https://github.com/undukwe/hackMIT">developed</a> the front-end of a social volunteering app using React.js and React Native.&nbsp;</p>
+                <br>
+                <br>
+                <h4>Health Policy and Population Health of the Michigan Parkinson Population</h4>
+                <p>As chairperson of this intern project at Blue Cross Blue Shield of Michigan, I led a team to help the Michigan Parkinson&rsquo;s Foundation by creating a database of 900+ long-term care providers for Parkinson's patients. We presented our recommendations to hundreds of BCBSM employees and executives, check out our <a href="https://drive.google.com/file/d/1ZzElSwJNrHG8kazaez-IavxDwWuZSscV/view?usp=sharing">presentation</a>.&nbsp;</p>
+                <br>
+                <br>
+                <h4>College Scorecard Data Analysis</h4>
+                <p>An exploratory data analysis on data provided by the Government College Scorecard. Charted the popularity of different majors across the Ivy&rsquo;s from 1998-2019, with Python with Pandas and Matplotlib in a Jupyter notebook.</p>
+                <br>
+                <br>
+                <h4>Eyesights</h4>
+                <p>These personal and observational essays aim to showcase the small parts of life as a student on Columbia's campus. I also spent one year in charge of editing these types of essays! Read about the <a href="https://www.columbiaspectator.com/the-eye/2018/12/07/the-pet-lion/">Scholar Lion</a>, <a href="https://www.columbiaspectator.com/the-eye/2019/11/21/c-u-slader/">Slader</a>, waiting for the <a href="https://www.columbiaspectator.com/the-eye/2019/04/09/a-bench-at-the-corner-of-8th-and-42nd/">bus</a>, and <a href="https://www.columbiaspectator.com/the-eye/2019/04/09/a-bench-at-the-corner-of-8th-and-42nd/">leaving</a> campus because of COVID-19.</p>
+                <!-- <br>
+                <br>
+                <h4>Published Reporting</h4>
+                <p>I have been published in <a href="https://www.bridgemi.com/about/eve-washington">Bridge Michigan</a>, <a href="https://planetdetroit.org/author/eve-washington/">Planet Detroit</a>, and the <a href="https://www.columbiaspectator.com/contributors/Eve-Washington/">Columbia Daily Spectator</a></p>
+                 -->
+            </div>
+            <div class="col-1 margin">
+                
+            </div>
+        </div>
+
+        
+
+        <div  class="cat" style="padding-top:5%;"> 
+            <h1><span class="purple">My Background</span></h1>
+            <div class="educationRow row">
+                <div class="col-2 margin">
+
+                </div>
+
+                <div class="col-3">
+                    <h2>Education</h2>
+                </div>
+
+                <div class="col-6 main">
+                    <p>Columbia University <br> 
+                        Class of 2022<br> 
+                        Bachelors of Arts in Data Science </p>
+                    
+                </div>
+                <div class="col-1 margin"></div>
+            </div>
+
+            <br>
+
+            <div class="SkillsRow row">
+                <div class="col-2 margin"></div>
+
+                <div class="col-3">
+                    <h2>Technical Skills</h2>
+                    
+                </div>
+
+                <div class="col-2">
+                    <h4>Programming Languages</h4>
+                    <p>R <br> Python<br> Java<br> Javascript<br> HTML/CSS</p>
+                    
+                </div>
+                <div class="col-2">
+                    <h4>Frameworks</h4>
+                    <p>Pandas<br> Matplotlib<br> NLTK<br> Tidyverse</p>
+                    
+                </div>
+                <div class="col-2">
+                    <h4>Tools</h4>
+                    <p>Excel<br> Adobe Photoshop<br> Adobe Illustrator<br> Infogram<br> Nexidia Speech Analytics</p>
+                    
+                </div>
+                <div class="col-1 margin">
+                    
+                </div>
+            </div>
+
+            <br>
+
+            <div class="work row">
+                <div class="col-2 margin">
+                </div>
+    
+                <div class="col-3">
+                    <h2>Work Experiences</h2>
+                    
+                </div>
+    
+                <div class="col-6 main">
+                    
+                    <img class="logo" src="assets\pd-logo.png" > <br>
+                    <img class="logo" src="assets\bridge.png" ><br>
+                    <img class="logo" src="assets\bcbsm.png" ><br>
+                    <img class="logo" src="assets\spectator-logo.png" ><br><br>
+                    <img class="logo" src="assets\eye-new-logo.png" width=25%><br>
+    
+    
+                    
+                </div>
+                <div class="col-2 margin">
+                    
+                </div>
+            </div>
+
+            
+
+            
+        </div>
+
+        <div class="header fullscreen" style="display:block; padding-top: 35%;">
+            <h1  id="byline">Thanks for Visiting! </h1>
+            <h3  id="greeting"><a href = "mailto:eve.s.l.washington@gmail.com">eve.s.l.washington@gmail.com</a> | <a href="https://twitter.com/itsEveW">Twitter</a> | <a href="https://www.linkedin.com/in/eve-w/">LinkedIn</a> | <a href="https://www.instagram.com/eve.washington/">Instagram</a> </h3>
+            <p  id="contact"> Made with ❤️ by Eve Washington </p>
+
+            <!-- <p style="text-align:right;"><br> <br>...or scroll to learn some more about me!</p> -->
+        </div>
+
+
+        <!-- <div class="col-12 footer">
+            <h2>That's all for now! Connect with me: <a href = "mailto: eve.s.l.washington@gmail.com">eve.s.l.washington@gmail.com</a> | <a href="https://twitter.com/itsEveW">Twitter</a> | <a href="https://www.linkedin.com/in/eve-w/">LinkedIn</a> | <a href="https://www.instagram.com/eve.washington/">Instagram</a></h2>
+            <p>Made with ❤️ by Eve Washington </p>
+        </div> -->
+
+        
+
+    </body>
+</html>

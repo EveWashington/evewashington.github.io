@@ -1,3 +1,5 @@
-# Personal/Portfilio Website 
+# eve.washington.github.io 
 
-This is intended to be a super miminal resume site
+Jekyll Based portfolio site built from the [Memoirs](https://bootstrapstarter.com/jekyll-theme-memoirs/) template
+
+V1 is is super simple stater with just HTML and Javascript
