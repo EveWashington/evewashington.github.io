@@ -36,7 +36,7 @@ And of course, when I find the time I love to paint and draw, watch comedies, an
 
 That's all for now. Glad you're here, enjoy exploring.
 
-####  Check out my all projects [here]() (you can also explore by [category]() or [source]()) and if you want to know more about my professional experiences keep scrolling. 
+####  Check out my all projects [here](https://evewashington.github.io/) (you can also explore by [category](https://evewashington.github.io/categories) or [source](https://evewashington.github.io/tags)) and if you want to know more about my professional experiences keep scrolling. 
 
 <!-- ![transition to resume](assets\images\face2-01-small-02.png)  -->
 
