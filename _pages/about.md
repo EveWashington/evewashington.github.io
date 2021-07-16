@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Nice to meet you, I'm Eve Washington. 
+title: Nice to meet you. I'm Eve Washington. 
 permalink: /about
 comments: false
 #image: assets/images/biocover.gif
