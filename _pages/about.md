@@ -24,11 +24,11 @@ imageshadow: true
     </a>
 </div>
 
-I am Eve Washington, a computer science student fascinated by journalism and media and passionate about combining tech and storytelling to make an impact. I am a rising senior at Columbia University,  currently living in NYC, and originally from Metro Detroit. 
+I am Eve Washington, a computer science student fascinated by journalism and media and passionate about combining tech and storytelling to make an impact. I am a senior at Columbia University, currently living in NYC and originally from Metro Detroit. 
 
 On-campus I conduct research with the News Authentication Research Group at Data Science Institute, lead community service initiatives as an executive board member for the National Society of Black Engineers, and have served as Resident Advisor. I am also the former Managing Editor of The Eye, the features magazine of the Columbia Spectator, and the previous Head of Diversity, Equity, and Inclusion at Spectator. 
 
-Currently I am working as a Summer Technology Analyst at Accenture, working on implementing salesforce technology at a health services client. In the past have interned as a Data Journalist for two Non-profit newsrooms, and a Workforce Analyst focusing on speech analytics. 
+Last Summer, I interned as a Summer Technology Analyst at Accenture, helping to implement salesforce technology at a health insurance client. In other summers, I have interned as a Data Journalist with two Michigan-based non-profit newsrooms and interned at the largest health insurance provider in Michigan as a Workforce Analyst using speech analytics to improve service. 
 
 I am proud and thankful to be an Emma Bowen Foundation alumna, Management Leaders of Tomorrow fellow, Washington Media Foundation Scholar, and Ron Brown Foundation Captain. 
 
@@ -50,12 +50,12 @@ That's all for now. Glad you're here, enjoy exploring.
 # Education and Skills
 
 **Columbia University, Bachalor of Arts in Computer Science**   
-Intelligent System Focus with a 3.5 GPA 
+Intelligent Systems Focus with a 3.5 GPA 
 Anticipated Graduation in May 2022 
 
 ### Technical Skills
-* **Languages** - R, Python, Java, Javascript, HTML, CSS 
-* **Libraries and Frameworks** - Pandas, Matplotlib, NLTK, Ggplot2, Dplyr, Tensorflow, Mapbox.js, React Native, Jekyll
+* **Languages** - R, Python, Java, C, Javascript, HTML, CSS 
+* **Libraries and Frameworks** - Pandas, Matplotlib, NLTK, Ggplot2, Tidyverse, Tensorflow, Mapbox.js, React Native, Jekyll
 * **Tools** - Excel, Adobe Photoshop, Adobe Illustrator, Adobe Premiere, Infogram, Balsamic, Figma, Salesforce
 
 <p>&nbsp;</p>
