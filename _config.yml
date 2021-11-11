@@ -11,7 +11,7 @@ disqus: 'demowebsite'
 mailchimp-list: 
 include: ["_pages"]
 permalink: /:title/
-email: wowthemesnet@gmail.com
+email: eve.s.l.washington@gmail.com
 
 # Authors
 authors:
@@ -47,7 +47,7 @@ paginate: 6
 paginate_path: /page:num/
     
 # Other
-highlighter: none
+highlighter: rouge
 markdown: kramdown
 kramdown:
    syntax_highlighter_opts:
