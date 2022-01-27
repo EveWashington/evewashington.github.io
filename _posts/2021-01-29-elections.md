@@ -3,7 +3,7 @@ layout: post
 title:  "Exploring Candidate Perceptions in Elections with R "
 categories: [ R ]
 tags: [ Coursework ]
-image: assets/images/canidates.png
+image: assets/images/candidates.png
 comments: False
 --- 
 The American National Election Studies (ANES) are surveys of voters in the U.S. on a national scale. For each presidential election since 1980, ANES has collected information about the personality traits of presidential candidates, by asking how well 8 personality traits describe republican and democratic candidates. The traits surveyed were Intelligence, Compassion, Decency, Inspiring, Knowledge, Morals, Leadership, and Caring, and respondents could rank each trait on a scale of one to four, one being “Extremely well” and four being “Not well at all.” For this analysis anes_dem, refers to opinions on the democratic candidate, and anes_rep refers to opinions on the republican.

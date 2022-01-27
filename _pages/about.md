@@ -28,7 +28,7 @@ I am Eve Washington, a computer science student fascinated by journalism and med
 
 On-campus I conduct research with the News Authentication Research Group at Data Science Institute, lead community service initiatives as an executive board member for the National Society of Black Engineers, and have served as Resident Advisor. I am also the former Managing Editor of The Eye, the features magazine of the Columbia Spectator, and the previous Head of Diversity, Equity, and Inclusion at Spectator. 
 
-Last Summer, I interned as a Summer Technology Analyst at Accenture, helping to implement salesforce technology at a health insurance client. In other summers, I have interned as a Data Journalist with two Michigan-based non-profit newsrooms and interned at the largest health insurance provider in Michigan as a Workforce Analyst using speech analytics to improve service. 
+Last Summer, I interned as a Summer Technology Analyst at Accenture, helping to implement salesforce technology at a health insurance client. In other summers, I have interned as a Data Journalist with two Michigan-based non-profit newsrooms, writing of dozen of stories where data is critical to their and interned at the largest health insurance provider in Michigan as a Workforce Analyst, where I use speech analytics to improve service. 
 
 I am proud and thankful to be an Emma Bowen Foundation alumna, Management Leaders of Tomorrow fellow, Washington Media Foundation Scholar, and Ron Brown Foundation Captain. 
 
@@ -49,8 +49,9 @@ That's all for now. Glad you're here, enjoy exploring.
 
 # Education and Skills
 
-**Columbia University, Bachalor of Arts in Computer Science**   
+**Columbia University, Bachelors of Arts in Computer Science**   
 Intelligent Systems Focus with a 3.5 GPA 
+
 Anticipated Graduation in May 2022 
 
 ### Technical Skills
