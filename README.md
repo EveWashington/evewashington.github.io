@@ -3,8 +3,8 @@
 Jekyll Based portfolio site built from the [Memoirs](https://bootstrapstarter.com/jekyll-theme-memoirs/) template
 
 ## Needed updates
-* Missing projects: College major story, BIS, Meg's Portfolio site (in progress)
-* grammar and spell check
+* Missing projects: College major story, Meg's Portfolio site (in progress)
+* grammar check
 * update resume actions 
 
 ## Former drafts
