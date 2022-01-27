@@ -3,8 +3,7 @@
 Jekyll Based portfolio site built from the [Memoirs](https://bootstrapstarter.com/jekyll-theme-memoirs/) template
 
 ## Needed updates
-* Missing projects: College major story, BIS, Meg's Portfolio site (in progress), TikTok Currents
-* update existing projects with drafts and Figma (Dams, Nouri)
+* Missing projects: College major story, BIS, Meg's Portfolio site (in progress)
 * grammar and spell check
 * update resume actions 
 
