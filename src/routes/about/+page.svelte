@@ -1,5 +1,6 @@
 <script>
 import { fade} from "svelte/transition";
+import { base } from '$app/paths';
 import bio_data from "../../data/bio.json";
 
 const {bio, awards} = bio_data;
