@@ -107,7 +107,7 @@
     </span>
 
     {#if mounted}
-    <span class="read-more" class:shuffleing={shuffleing} class:not-shuffleing={!shuffleing}><a href="/about">read more »</a></span>
+    <span class="read-more" class:shuffleing={shuffleing} class:not-shuffleing={!shuffleing}><a href="./about">read more »</a></span>
     {/if}
     </div>
 </div>
