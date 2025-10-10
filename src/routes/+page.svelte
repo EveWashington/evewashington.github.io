@@ -29,8 +29,8 @@ let selectedTag = $state("journalism");
   <p class="links"> 
     <a href="https://github.com/evewashington/2025-website-upgrade">Repo</a> |
     <a href="https://evewashington.github.io/college-portfolio/">Old Site</a>  | 
-    <a href="https://instagram.com/evewashington">IG</a> |
-    <a href="https://twitter.com/evewashington">LinkedIn</a>
+    <a href="https://instagram.com/eve.washington">IG</a> |
+    <a href="https://linkedin.com/in/eve-w">LinkedIn</a>
     </p>
   
 </div>
