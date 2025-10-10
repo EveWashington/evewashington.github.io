@@ -8,7 +8,7 @@
 // let displayItems = $state(latest_items);
 
     let displayItems = $derived.by(() => {
-        console.log("latest_items", latest_items, "selectedTag", selectedTag);
+        // console.log("latest_items", latest_items, "selectedTag", selectedTag);
         if (!latest_items) return [];
         // Create a sorted copy to avoid mutating the original array
         let sortedItems = [...latest_items].sort((a, b) => {
