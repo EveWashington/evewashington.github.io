@@ -9,7 +9,7 @@ const {bio, awards} = bio_data;
 
 <div class="page-wrapper" in:fade={{ duration: 500, delay: 500 }} out:fade={{ duration: 500 }}>
 <div class="navigate-back">
-    <a href="../">« home</a>
+    <a href="{base}/">« home</a>
 </div>
 
 <h3>About Eve</h3>

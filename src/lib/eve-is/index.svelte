@@ -1,6 +1,9 @@
 <script>
     import { onMount } from "svelte";
     import {fade} from "svelte/transition";
+
+    import { base } from '$app/paths';
+
     let { is_isms = [], tags = [], selectedTag = $bindable("journalism"), shuffleing = $bindable(false) } = $props();
 
     const {title, context, fun} = is_isms;
@@ -107,7 +110,7 @@
     </span>
 
     {#if mounted}
-    <span class="read-more" class:shuffleing={shuffleing} class:not-shuffleing={!shuffleing}><a href="./about">read more »</a></span>
+    <span class="read-more" class:shuffleing={shuffleing} class:not-shuffleing={!shuffleing}><a href="{base}/about">read more »</a></span>
     {/if}
     </div>
 </div>
