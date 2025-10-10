@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.svg" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		%sveltekit.head%
+		
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
+
+<style global>
+	:root {
+		--source-code: 'Source Code Pro', monospace;
+		--bg-color: #EFE4D2;
+		--fg-color: #564154; 
+
+		--date-width: 70px;
+		
+	}
+
+	body {
+		font-family: var(--source-code);
+		margin: 0;
+		padding: 0;
+		background-color: var(--bg-color);
+		color: var(--fg-color);
+		transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+	}
+</style>
