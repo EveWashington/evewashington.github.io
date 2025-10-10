@@ -13,7 +13,7 @@ const {bio, awards} = bio_data;
     <a href="{base}/">« home</a>
 </div>
 
-<h3>About Eve</h3>
+<h1>About Eve</h1>
 {#each bio as graf}
     <p>{graf}</p>
 {/each}
