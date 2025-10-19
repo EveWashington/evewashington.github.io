@@ -164,7 +164,7 @@
     <!-- <svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 0 17 15">
     <path d="M11.9004 0L16.0656 3.55738L11.9004 7.11475L16.0656 10.6721L11.9004 14.2295V11.8579H9.72661L7.48933 9.62863L9.17126 7.95271L10.7104 9.48634H11.9004V7.11475V4.74317H10.7104L3.57013 11.8579H0V9.48634H2.58636L9.72661 2.37158H11.9004V0ZM0 2.37158H3.57013L5.80741 4.60087L4.12548 6.27679L2.58636 4.74317H0V2.37158Z"/>
     </svg> -->
-    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M560-160v-80h104L537-367l57-57 126 126v-102h80v240H560Zm-344 0-56-56 504-504H560v-80h240v240h-80v-104L216-160Zm151-377L160-744l56-56 207 207-56 56Z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" height="1.3em" viewBox="0 -960 960 960" width="1.3em"><path d="M560-160v-80h104L537-367l57-57 126 126v-102h80v240H560Zm-344 0-56-56 504-504H560v-80h240v240h-80v-104L216-160Zm151-377L160-744l56-56 207 207-56 56Z"/></svg>
     {shuffleText}
 </button>
 
@@ -184,6 +184,8 @@
         text-wrap: pretty;
 
     }
+
+
 
 
 
@@ -274,6 +276,15 @@
     @keyframes icon-spin {
         from { transform: rotate(0deg); }
         to { transform: rotate(360deg); }
+    }
+
+    @media (max-width: 400px) {
+        .head-wrapper {
+            font-size: 24px;
+        }
+        button {
+            font-size: 14px;
+        }
     }
 
 </style>
