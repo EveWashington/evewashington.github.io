@@ -1,22 +1,17 @@
-# sv
+# evewashington.github.io
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This is the 2025 update of my portfolio site, its built mostly for fun and to push down the SEO results for my college site (which in case your curious now lives at https://evewashington.github.io/college-portfolio/). 
 
-## Creating a project
+Also hopefully this can be a home for more personal projects in the future. 
 
-If you're seeing this, you've probably already done this step. Congrats!
+(Hit the shuffle button! that's my fav part)
 
-```sh
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
+# SvelteKit stuff 
+This project is built with sveltekit. It uses google docs as a kinda micro-cms. Here's some basic svelte stuff: 
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+After Cloning install dependencies with `npm install`, start a development server with:
 
 ```sh
 npm run dev
@@ -35,4 +30,3 @@ npm run build
 
 You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
