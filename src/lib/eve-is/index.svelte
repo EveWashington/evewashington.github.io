@@ -131,7 +131,7 @@
 
 </script>
 <div class="icon-wrapper">
-<img src={`/${selectedIcon}`}  onclick={shuffle} onkeydown={shuffle} role="button" class:shuffleing alt="emoji" width="32" height="32"/>
+<img src={`${base}/${selectedIcon}`}  onclick={shuffle} onkeydown={shuffle} role="button" class:shuffleing alt="emoji" width="32" height="32"/>
 </div>
 
 <div class="wrapper-wrapper" style:padding-bottom={headHeight + "px"}>
