@@ -2,7 +2,7 @@
 
 This is the 2025 update of my portfolio site, its built mostly for fun and to push down the SEO results for my college site (which in case your curious now lives at https://evewashington.github.io/college-portfolio/). 
 
-Also hopefully this can be a home for more personal projects in the future. 
+Also hopefully this can be a home some simple blog posts and more personal projects in the future. 
 
 (Hit the shuffle button! that's my fav part)
 
