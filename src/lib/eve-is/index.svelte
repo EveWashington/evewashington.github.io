@@ -137,14 +137,17 @@
 <div class="wrapper-wrapper" style:padding-bottom={headHeight + "px"}>
     <div class="head-wrapper" bind:clientHeight={headHeight}>
     Eve is
-
     <span class="ism-wrapper" class:shuffleing={shuffleing}>
+
         {#each displayIds as is, i (is)} 
+            {#if i > 0}
+                {" "}
+            {/if}
             <span class="ism" in:fade={{ duration: 1000, delay: (i * 700) + 700 }}>
             {#if i == 2}
-                <span class="ism-separator">, and {is}.</span>
+                and {is}.
             {:else if i == 1 }
-                <span class="ism-separator">&nbsp;{is}</span>
+                {is}
             {:else}
             { is }
             {/if}  
@@ -188,6 +191,9 @@
 
 
 
+    .ism {
+        display: inline;
+    }
 
     /* svg {
         padding-left: 10px;
@@ -196,6 +202,7 @@
     .ism-wrapper {
         opacity: 1;
         transition: opacity 0.5s ease-in-out;
+       
     }
 
     .shuffleing {
